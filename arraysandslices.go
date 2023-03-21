@@ -18,7 +18,7 @@ func main(){
 
 	fmt.Printf("%v \n", students)
 
-	a := [...]int{1, 2, 3, 4, 5}
+	a := [...]int{1, 2, 3, 4, 5, 6}
 	fmt.Printf("Array a before change using pointer: %v \n", a)
 	b := &a
 	b[1] = 4
